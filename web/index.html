@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dolmar Bikes — Bicicletas, repuestos y accesorios en Chiclayo</title>
+    <meta
+      name="description"
+      content="Dolmar Bikes: bicicletas, repuestos y accesorios en Chiclayo, Perú. Consulta precios y disponibilidad y compra directo"
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Dolmar Bikes" />
+    <meta
+      property="og:title"
+      content="Dolmar Bikes — Bicicletas, repuestos y accesorios en Chiclayo"
+    />
+    <meta
+      property="og:description"
+      content="Dolmar Bikes: bicicletas, repuestos y accesorios en Chiclayo, Perú. Consulta precios y disponibilidad y compra directo"
+    />
+    <meta property="og:url" content="https://dolmarbike.com" />
+    <meta
+      property="og:image"
+      content="https://dolmarbike.com/pwa-512x512.png"
+    />
+    <meta property="og:locale" content="es_PE" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Dolmar Bike — Bicicletas, repuestos y accesorios en Chiclayo"
+    />
+    <meta
+      name="twitter:description"
+      content="Catálogo Dolmar Bikes: bicicletas, repuestos y accesorios en Chiclayo, Perú."
+    />
+    <meta
+      name="twitter:image"
+      content="https://dolmarbike.com/pwa-512x512.png"
+    />
+
+    <script>
+      (function () {
+        var section =
+          location.pathname.indexOf("/admin") === 0 ? "admin" : "public";
+        var stored = localStorage.getItem("theme-" + section);
+        if (stored === "dark") {
+          document.documentElement.classList.add("dark");
+        }
+      })();
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100">
+    <div id="app"></div>
+    <noscript>
+      <div
+        style="
+          max-width: 800px;
+          margin: 40px auto;
+          padding: 0 20px;
+          font-family: sans-serif;
+        "
+      >
+        <h1>Dolmar Bikes — Bicicletas, repuestos y accesorios en Chiclayo</h1>
+        <p>
+          Catálogo online de bicicletas, repuestos y accesorios en Chiclayo,
+          Perú. Activa JavaScript para navegar el catálogo completo.
+        </p>
+        <nav>
+          <a href="/catalogo">Catálogo</a> · <a href="/nosotros">Nosotros</a> ·
+          <a href="/preguntas-frecuentes">Preguntas frecuentes</a> ·
+          <a href="/guia-tallas">Guía de tallas</a> ·
+          <a href="/politica-privacidad">Política de privacidad</a> ·
+          <a href="/terminos-condiciones">Términos y condiciones</a>
+        </nav>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

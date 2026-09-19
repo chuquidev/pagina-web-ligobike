@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-brand-primary: #1e3a8a;
+  --color-brand-secondary: #3b82f6;
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+}
+
+html {
+  /* Evita que el contenido "salte" al cambiar entre páginas con y sin scroll */
+  scrollbar-gutter: stable;
+}
+
+/* Oculta la barra de scroll mantenimiento el desplazamiento (filtros en móvil, carruseles, etc.) */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
