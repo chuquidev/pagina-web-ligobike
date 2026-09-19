@@ -4,7 +4,7 @@ set -e
 # --- Configuración: edita esto si algo cambia ---
 VPS_USER="root"
 VPS_IP="104.248.4.70"
-VPS_PATH="/var/www/dolmarbikes-catalogo/web"
+VPS_PATH="/var/www/ligobikes-catalogo/web"
 LOCAL_WEB_DIR="web"
 # --------------------------------------------------
 
@@ -26,4 +26,4 @@ ssh "$VPS_USER@$VPS_IP" "
   find $VPS_PATH/dist -type f -exec chmod 644 {} \;
 "
 
-echo "✅ Listo — https://dolmarbike.com actualizado."
+echo "✅ Listo — https://ligobikes.com actualizado."

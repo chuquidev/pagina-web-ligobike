@@ -18,9 +18,9 @@ export default defineConfig({
         "apple-touch-icon.png",
       ],
       manifest: {
-        name: "Dolmar Bikes Admin",
-        short_name: "Dolmar Admin",
-        description: "Panel de administración de Dolmar Bikes.",
+        name: "Ligo Bikes Admin",
+        short_name: "Ligo Admin",
+        description: "Panel de administración de Ligo Bikes.",
         theme_color: "#1e3a8a",
         background_color: "#ffffff",
         display: "standalone",

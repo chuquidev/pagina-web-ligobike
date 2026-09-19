@@ -7,7 +7,7 @@ export interface CartItem {
   quantity: number;
 }
 
-const STORAGE_KEY = "dolmar-cart";
+const STORAGE_KEY = "ligobikes-cart";
 
 function loadFromStorage(): CartItem[] {
   try {

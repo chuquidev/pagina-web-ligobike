@@ -107,7 +107,7 @@ async function confirmLogout() {
             </div>
 
             <div class="border-b border-gray-100 px-3 py-3 dark:border-gray-800">
-                <a href="https://dolmarbike.com" target="_blank" rel="noopener"
+                <a href="https://ligobikes.com" target="_blank" rel="noopener"
                     class="flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium text-gray-500 transition hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-200"
                     :class="railCollapsed ? 'lg:justify-center lg:px-0' : ''"
                     :title="railCollapsed ? 'Ver tienda' : undefined">
