@@ -101,7 +101,7 @@ watch(
         </div>
 
         <nav v-if="mobileMenuOpen"
-            class="flex flex-col border-t border-gray-100 px-4 py-2 text-sm font-medium text-gray-600 dark:border-gray-800 dark:text-gray-300 lg:hidden">
+            class="absolute inset-x-0 top-full flex flex-col border-t border-gray-100 bg-white px-4 py-2 text-sm font-medium text-gray-600 shadow-lg dark:border-gray-800 dark:bg-gray-950 dark:text-gray-300 lg:hidden">
             <RouterLink to="/" active-class=""
                 exact-active-class="!bg-brand-primary/10 !text-brand-primary dark:!bg-brand-primary/15"
                 class="rounded-lg px-3 py-2.5 hover:bg-gray-50 hover:text-brand-primary dark:hover:bg-gray-800"

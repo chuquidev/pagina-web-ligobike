@@ -21,7 +21,7 @@ export default defineConfig({
         name: "Ligo Bikes Admin",
         short_name: "Ligo Admin",
         description: "Panel de administración de Ligo Bikes.",
-        theme_color: "#1e3a8a",
+        theme_color: "#1e4fd8",
         background_color: "#ffffff",
         display: "standalone",
         start_url: "/admin/dashboard",
