@@ -4,7 +4,7 @@ set -e
 # --- Configuración: edita esto si algo cambia ---
 VPS_USER="root"
 VPS_IP="104.248.4.70"
-VPS_PATH="/var/www/ligobikes-catalogo/web"
+VPS_PATH="/var/www/ligobikes/web"
 LOCAL_WEB_DIR="web"
 # --------------------------------------------------
 

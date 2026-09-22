@@ -4,7 +4,7 @@ set -e
 # --- Configuración ---
 VPS_USER="root"
 VPS_IP="104.248.4.70"
-API_PATH="/var/www/ligobikes-catalogo/api"
+API_PATH="/var/www/ligobikes/api"
 # ----------------------
 
 echo "== Actualizando backend en el VPS =="
